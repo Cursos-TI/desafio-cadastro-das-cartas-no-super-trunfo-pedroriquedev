@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 int main(){
-   
+   //Coloquei as variáveis e as declarações utilizei o float em algumas variáveis para uma maior precisão.
     int populacao;
     float area;
     float pib;
     int pontos_turisticos;
-
+    float densidade_populacional, pib_per_capita;
+    // Colocquei um printf para dar saudações, usei o "\n" para dar um espaço e ja pedi para o usuario inserir os dado da carta
+    //para uma melhor vsualização.
     printf("Bem-vindo ao cadastro de cartas do jogo Super Trunfo! \n");
     printf("\n");
     printf("Insira os dados das cartas para o primeiro estado. \n");
@@ -23,11 +25,17 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+   
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
-    printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nPopulacao: %d - Area: %.2f km²", populacao, area);
+    printf(" - Pib: %.2f - Pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
+// Acrecentei um printf e um "\n" para dividir uma carta da outra e assim ficar melhor a visualização.
      printf("\n----------------------------------------------------------------------------\n");
 
     printf("CARTA A02 \n");
@@ -43,10 +51,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
+
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -63,10 +76,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+   //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
+
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -83,10 +101,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -104,10 +127,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -124,10 +152,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
+
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -144,10 +177,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -164,10 +202,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+   
+   //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -185,10 +228,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
     
@@ -205,10 +253,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
     
@@ -225,10 +278,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+   
+   //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
     
@@ -245,10 +303,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -266,12 +329,17 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+   
+   //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
-     printf("\n----------------------------------------------------------------------------\n");
+    printf("\n----------------------------------------------------------------------------\n");
 
     printf("CARTA D02 \n");
 
@@ -286,10 +354,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -306,10 +379,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -326,10 +404,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -347,10 +430,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -367,10 +455,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -387,10 +480,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -407,10 +505,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -428,10 +531,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -448,10 +556,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -468,10 +581,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -488,10 +606,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -509,10 +632,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -529,10 +657,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -549,10 +682,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -569,10 +707,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -590,10 +733,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -610,10 +758,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -630,10 +783,15 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
      printf("\n----------------------------------------------------------------------------\n");
 
@@ -650,14 +808,19 @@ int main(){
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos);
-    printf("\n");
+    
+    //cáuculo automático 
+    densidade_populacional = populacao / area;
+    pib_per_capita = pib / populacao;
 
-    printf("Populacao: %d - Area: %f", populacao, area);
+    printf("\nPopulacao: %d - Area: %f", populacao, area);
     printf(" - Pib: %f - pontos Turisticos: %d", pib, pontos_turisticos);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidade_populacional);
+    printf(" - PIB per Capita: %.2f USD\n", pib_per_capita);
 
     printf("\n----------------------------------------------------------------------------\n");
 
-    printf("VOCE ACABOU DE CADASTRAR TODAS AS CARTAS DO JOGO!");
+    printf("VOCÊ ACABOU DE CADASTRAR TODAS AS CARTAS DO JOGO!");
     printf("\n");
     
     return 0;
